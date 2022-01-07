@@ -1,0 +1,136 @@
+body {
+    background: #333333;
+}
+
+.container{
+    margin-left: 20px;
+    margin-top: 20px;
+
+    position: relative;
+    width: 1440px;
+    height: 1080px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+#stamp{
+    position: absolute;
+    width: 133px;
+    height: 25px;
+    left: 77px;
+    top: 40px;
+
+    font-family: Inconsolata;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+
+    color: #333333;
+    
+}
+
+
+#imagen {
+
+    margin-right: 30px;
+
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    padding: 150px;
+}
+
+.text-container{
+
+
+}
+
+#bad-news{
+    position: absolute;
+    width: 586px;
+    left: 703px;
+    top: 155px;
+
+    
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    
+    /* Gray 1 */
+    color: #333333;
+}
+
+#desc{
+    position: absolute;
+    width: 381px;
+    height: 108px;
+    left: 697px;
+    top: 416px;
+
+    margin-top: -30px;
+    margin-left: 10px;
+
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+
+    /* Gray 2 */
+    color: #4F4F4F;
+}
+
+.button{
+    position: absolute;
+    
+    width: 216px;
+    height: 68px;
+
+    top: 611px;
+    left: 711px;
+    
+    background: #333333;
+
+    font-family: "Space mono";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 34px;
+
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+.final{
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 599px;
+    top: 1039px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+
+    /* identical to box height */
+    text-align: center;
+
+    color: #BDBDBD;
+}

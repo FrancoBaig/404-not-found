@@ -46,10 +46,10 @@ body {
     margin-top: 0;
 }
 
-img {
+.crow img {
     width: 545px;
     height: 465px;
-    margin-left: -30px;
+    margin-left: 30px;
 }
 
 .text-container {
@@ -147,7 +147,8 @@ img {
     .content-container {
         display: flex;
         flex-direction: column;
-        margin-left: 30px;
+
+        align-items: center;
     }
 
     .bad-news {
@@ -162,10 +163,10 @@ img {
 }
 
 @media (max-width: 485px){
-    img {
-        width: 380px;
-        height: 340px;
-        margin-left: -49px;
+    img{
+        width: 287px;
+        height: 238px;
+        margin-left: 61px;
     }
 
     .bad-news {
@@ -176,7 +177,7 @@ img {
         font-size: 14px;
         padding: 10px;
 
-        padding-right: 91px;
+        padding-right: 75px;
     }
 }
 
@@ -200,6 +201,7 @@ img {
     img{
         width: 287px;
         height: 238px;
+        margin-right: 66px;
     }
 
     .bad-news {

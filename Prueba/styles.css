@@ -61,17 +61,15 @@ body {
 }
 
 .text-container {
-
-
     margin-top: 0px;
     margin-left: -10px;
 
 }
 
 .bad-news {
-    font-size: 64px;
+    font-size: 63px;
     letter-spacing: -2px;
-
+    width: 557px;
 }
 
 .description {
@@ -106,4 +104,130 @@ body {
     align-self: flex-end;
 
     margin-bottom: 0;
+}
+
+@media (max-width: 1160px){
+    .bad-news {
+        font-size: 57px;
+    }
+
+    .description {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1050px){
+    #image img {
+        width: 500px;
+        height: 420px
+    }
+
+
+
+    .bad-news {
+        font-size: 45px;
+        width: 479px;
+    }
+
+    .description {
+        font-size: 17px;
+    }
+}
+
+
+@media (max-width: 885px){
+    #image img {
+        width: 440px;
+        height: 380px;
+    }
+
+    .bad-news {
+        font-size: 40px;
+        width: 427px;
+    }
+
+    .description {
+        font-size: 14px;
+        width: 258px;
+    }
+}
+
+@media (max-width: 775px) {
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+
+    .bad-news {
+        font-size: 49px;
+
+    }
+
+    .description {
+        font-size: 16px;
+        width: 258px;
+    }
+}
+
+@media (max-width: 485px){
+    #image img {
+        width: 410px;
+        height: 350px;
+        margin-left: -49px;
+    }
+
+    .bad-news {
+        font-size: 41px;
+    }
+
+    .footer {
+        font-size: 14px;
+        padding: 10px;
+
+        padding-right: 91px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .container {
+        height: 949px;
+    }
+    
+    .error-tag {
+        margin-left: 35px;    
+    }
+
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+
+
+    #image img{
+        width: 238px;
+        height: 238px;
+    }
+
+    .bad-news {
+        font-size: 32px;
+        letter-spacing: -2px;
+    }
+    
+    .description {
+        font-size: 18px;
+    }
+    
+    .button {
+        font-size: 14px;
+    }
+
+    .footer {
+        font-size: 14px;
+        padding: 10px;
+        padding-right: 46px;
+    }
+
 }

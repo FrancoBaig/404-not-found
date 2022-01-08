@@ -46,7 +46,7 @@ body {
     margin-top: 0;
 }
 
-#image img {
+img {
     width: 545px;
     height: 465px;
     margin-left: -30px;
@@ -71,7 +71,7 @@ body {
 }
 
 .button {
-    background-color: #333333; /* Green */
+    background-color: #333333; 
 
     margin-top: 70px;
 
@@ -110,7 +110,7 @@ body {
 }
 
 @media (max-width: 1050px){
-    #image img {
+    img {
         width: 500px;
         height: 420px
     }
@@ -127,7 +127,7 @@ body {
 
 
 @media (max-width: 885px){
-    #image img {
+    img {
         width: 440px;
         height: 380px;
     }
@@ -162,9 +162,9 @@ body {
 }
 
 @media (max-width: 485px){
-    #image img {
-        width: 410px;
-        height: 350px;
+    img {
+        width: 380px;
+        height: 340px;
         margin-left: -49px;
     }
 
@@ -197,7 +197,7 @@ body {
     }
 
 
-    #image img{
+    img{
         width: 287px;
         height: 238px;
     }

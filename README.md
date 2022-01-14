@@ -36,8 +36,8 @@
 
 ## Overview
 
-![1400px-desktop](https://i.imgur.com/zsCF5zZ.png)
-![mobile](https://i.imgur.com/CsM8yiH.png)
+![1400px-desktop](https://i.imgur.com/8tYrKpP.png)
+![mobile](https://i.imgur.com/CabcdrI.png)
 
 ### Built With
 

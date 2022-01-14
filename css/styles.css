@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ffffff;
+  font-family: "Space Mono";
+  color: #333333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1400px;
+  min-height: 1080px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: "header     header      header" "content    content     content" "footer     footer      footer";
+}
+.container .header {
+  grid-area: header;
+  font-family: "Inconsolata";
+  font-size: 13px;
+  letter-spacing: -2.5px;
+  padding: 44px 77px;
+  margin-bottom: 148px;
+}
+.container .content {
+  grid-area: content;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.container .content .scarecrow {
+  display: flex;
+  justify-content: center;
+}
+.container .content .scarecrow img {
+  max-width: 90%;
+  max-height: 90%;
+}
+.container .content .text-container #title {
+  font-size: 64px;
+  letter-spacing: -2px;
+}
+.container .content .text-container #description {
+  margin-top: 50px;
+  margin-left: 0px;
+  width: 365px;
+  font-size: 22px;
+}
+.container .content .text-container .button {
+  background-color: #333333;
+  margin-top: 70px;
+  width: 215px;
+  height: 70px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Space Mono";
+  letter-spacing: -1px;
+}
+.container .footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px;
+  height: 100px;
+  margin-bottom: 0;
+  color: #bdbdbd;
+  font-family: "Montserrat";
+}
+.container .footer span {
+  color: #333333;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 992px) {
+  .container .content {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    max-height: 949px;
+  }
+  .container .header {
+    padding: 25px 20px;
+    margin-bottom: 30px;
+  }
+  .container .content .scarecrow img {
+    width: 367px;
+    height: 318px;
+    margin-left: -7%;
+  }
+  .container .content .text-container #title {
+    font-size: 48px;
+  }
+  .container .content .text-container #description {
+    margin-top: 29px;
+    font-size: 18px;
+  }
+  .container .footer {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
